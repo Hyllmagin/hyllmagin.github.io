@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(to bottom, #924dbf, #660066);
+    height: 100vh;
+}
+/*#660066*/
+
+.titel{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 75px;
+    animation: grow-shrink 3s infinite ease-in-out;
+}
+
+.text1{
+    width: 70%;
+    margin: auto;
+    background-color:#330039 ;
+    color:white;
+    padding: 6px;
+    border-radius: 6px;
+}
+.text1 p{
+    margin-left: 6px;
+}
+
+@keyframes grow-shrink {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  footer{
+    position: fixed;
+    bottom: 0;
+  }
+
+  .kontakta{
+    margin-top: 120px;
+  }
+
+  .kontakta p{
+    margin: 0;
+  }
+
+  .nyhet{
+    margin-top: 45px;
+  }
+  .nyhet p{
+    margin: 0;
+  }
+  .rick{
+    color:rgb(0, 171, 228);
+  }

@@ -1,4 +1,4 @@
-body{
+P0body{
     background: linear-gradient(to bottom, #924dbf, #660066);
     height: 100vh;
     margin: 0;
@@ -106,7 +106,7 @@ p{
     margin-top: 40px;
     margin-bottom: 30px;
     border: 2px solid white;
-    border-radius: 2px;
+    border-radius: 10px;
   }
 
   .skåp_bild{

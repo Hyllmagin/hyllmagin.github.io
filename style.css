@@ -111,6 +111,7 @@ p{
 
   .skåp_bild{
     width:140px;
+    border-radius: 10px;
   }
   .skåp_text{
     font-size: 14px;

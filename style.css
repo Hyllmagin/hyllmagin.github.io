@@ -1,16 +1,19 @@
 body{
     background: linear-gradient(to bottom, #924dbf, #660066);
     height: 100vh;
+    margin: 0;
 }
 /*#660066*/
-
+p{
+  color:white;
+}
 .titel{
     font-family:'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 75px;
+    margin-bottom: 25px;
     animation: grow-shrink 3s infinite ease-in-out;
 }
 
@@ -31,7 +34,7 @@ body{
       transform: scale(1);
     }
     50% {
-      transform: scale(1.5);
+      transform: scale(1.3);
     }
     100% {
       transform: scale(1);
@@ -46,6 +49,9 @@ body{
   footer{
     position: fixed;
     bottom: 0;
+    padding:2px;
+    color:white;
+    background-color: black;
   }
 
   .kontakta{
@@ -64,4 +70,28 @@ body{
   }
   .rick{
     color:rgb(0, 171, 228);
+  }
+
+
+  .main{
+    width: 310px;
+    margin: auto;
+  }
+  .flyer_bild{
+    width: 152px;
+    margin: auto;
+  }
+
+  .skåp{
+    display:flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .skåp_bild{
+    width:140px;
+  }
+  .skåp_text{
+    font-size: 14px;
+    margin-left: 3px;
   }

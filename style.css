@@ -78,6 +78,22 @@ p{
     width: 310px;
     margin: auto;
   }
+
+  .flyers {
+      display: flex;
+  }
+
+  .flyer_bild:first-child {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+  }
+
+  .flyer_bild:last-child {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+
+
   .flyer_bild{
     width: 144px;
     margin: auto;
